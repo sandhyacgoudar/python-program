@@ -1,0 +1,6 @@
+x=10
+y=15
+if x<y and y>14:
+   print("x",x,"y",y)
+else:
+print("condition failed")
