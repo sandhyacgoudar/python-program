@@ -1,0 +1,7 @@
+x=["pink","red"]
+y=["pink","red"]
+z=x
+print(z is x)
+print(z is not x)
+print(z is y)
+print(x is y)
