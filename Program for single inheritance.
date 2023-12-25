@@ -1,0 +1,9 @@
+class Dog:
+    def bark(self):
+        print("Dog barks")
+class BabyDog(Dog):
+    def eat(self):
+        print("Dog eats") 
+d1=BabyDog() 
+d1. eat() 
+d1. bark() 
