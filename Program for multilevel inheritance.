@@ -1,0 +1,12 @@
+class x:
+     A=100
+class y(x):
+     B=200
+class z(x):
+     C=400
+z1=z() 
+print(z1.C) 
+print(z1.A) 
+y1=y() 
+print(y1.B) 
+    
