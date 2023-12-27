@@ -1,0 +1,15 @@
+class A:
+   def func1(self):
+       print("from A")
+class B(A):
+   def func2(self):
+       print("from B")
+class C(A):
+   def func3(self):
+       print("from C")
+b1=B()
+c1=C()
+b1.func1()
+b1.func2()
+c1.func1()
+c1.func3()
