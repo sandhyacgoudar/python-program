@@ -1,0 +1,10 @@
+class A:
+   def show(self):
+      print ("from A")
+class B(A):
+   def show(self):
+      print("from B") 
+a=A() 
+b=B() 
+a. show() 
+b. show() 
